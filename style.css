@@ -1,0 +1,70 @@
+body{
+background: rgb(29,104,106);
+background: linear-gradient(0deg, rgba(29,104,106,1) 6%, rgba(52,61,90,1) 80%);
+}
+header {
+  background-color: aquamarine;
+}
+
+main {
+  height: 90vh;
+  display: flexbox;
+}
+.live {
+  background-color: rgba(47, 54, 75, 0.945);
+  margin-top: 60px;
+  margin-bottom: 15px;
+  margin-left: 19.5px;
+  height: 25%;
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 2px 1px rgba(15, 15, 15, 0.2);
+}
+.slide {
+  display: flex;
+  overflow: scroll;
+  scroll-snap-type: mandatory;
+  height: 20%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.slide > article {
+  flex-shrink: 0;
+  background-color: #141414;
+  height: 90%;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 17px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 2px 1px rgba(15, 15, 15, 0.2);
+}
+.check{
+    position: sticky;
+    text-align: center;
+    color: rgb(255, 254, 251);
+}
+.date {
+  height: 50%;
+  margin-top: 18px;
+  overflow-y: scroll;
+  scroll-snap-type: mandatory;
+  background-color: rgb(23, 23, 23, 0.22);
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 17px;
+}
+.date > article {
+  flex-shrink: 0;
+  background-color: rgba(47, 54, 75, 0.945);
+  text-align: center;
+  color: rgb(255, 254, 251);
+  height: 100px;
+  width: 88%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 17px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 2px 1px rgba(15, 15, 15, 0.2);
+}

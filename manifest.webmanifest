@@ -1,0 +1,41 @@
+{
+  "background_color": "rgb(255, 254, 251);",
+
+  "orientation": "portrait",
+
+  "description": "Obtenez rapidement la météo locale pour les 24 prochaines heures et les cinq prochains jours !",
+
+  "display": "fullscreen",
+
+  "icons": [
+    {
+      "src": "img/icon/logo.png",
+
+      "type": "image/svg+xml",
+
+      "sizes": "512x512"
+    },
+
+    {
+      "src": "img/icon/logo.png",
+
+      "sizes": "192x192",
+
+      "type": "image/jpeg"
+    },
+
+    {
+      "src": "img/icon/logo.png",
+
+      "sizes": "512x512",
+
+      "type": "image/jpeg"
+    }
+  ],
+
+  "name": "Ma météo",
+
+  "short_name": "Météo",
+
+  "start_url": "/index.html"
+}
